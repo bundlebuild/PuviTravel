@@ -1,0 +1,389 @@
+.desktop-only {
+    display: block;
+}
+
+.mobile-only {
+    display: none!important;
+}
+
+@media all and (max-width: 767px) {
+    .desktop-only {
+        display: none!important;
+    }
+
+    .mobile-only {
+        display: block!important;
+    }
+}
+
+.gyan-container {
+    margin-top: 75px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-break-header {
+    padding: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.page-break-tamil {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--red);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-break-icon svg path {
+    padding: 10px;
+    fill: var(--red);
+}
+
+.page-break-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.horizontal-list-container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-list-heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.horizontal-list-content {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.overlay {
+    background: linear-gradient(180deg, #000, transparent);
+    opacity: 0.5;
+    width: 100%;
+    position: absolute;   
+}
+
+.primary-btn {
+    font-size: 15px;
+    background-color: #fff;
+    color: var(--primary);
+    width: max-content;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    position: relative;
+    top: 0px;
+    transition: ease top 0.2s;
+    background-color: #f2f2f2
+}
+
+.primary-btn:hover {
+    top: -3px;
+}
+
+.lg-book-now-btn {
+    background-color: var(--blue);
+    font-weight: 600;
+    padding: 18px;
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.lg-book-now-btn:hover {
+    opacity: 0.5;
+}
+
+.banner-full {
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.banner-full .overlay {
+    height: 50vh;
+    opacity: 0.2;
+    background: linear-gradient(180deg, #000, #000, transparent);
+}
+
+.banner-full-content {
+    position: relative;
+    z-index: 10000;
+    height: 30vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.highlighted-text {
+    color: var(--red);
+    font-weight: 700;
+}
+
+.gyanContainer {
+    margin-inline: auto;
+    -webkit-padding-start: var(--explore_padding-inline);
+    padding-inline-start: var(--explore_padding-inline);
+    -webkit-padding-end: var(--explore_padding-inline);
+    padding-inline-end: var(--explore_padding-inline);
+    background: var(--white);
+    max-width: 1065px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+}
+
+@media all and (max-width: 767px) {
+    .gyanContainer {
+        top: 50px;
+    }
+}
+
+.vertical-divider {
+    background-color: var(--gray);
+    flex: 0 0 1px;
+    height: 24px;
+    width: 1px;
+}
+
+.padding-btn {
+    appearance: none;
+    border: 0;
+    color: inherit;
+    display: inline-block;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    outline: 0;
+    overflow: visible;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    -webkit-user-select: auto;
+    user-select: auto;
+    outline: none;
+    align-items: center;
+    display: flex;
+    flex: 0 1 auto;
+    height: 48px;
+    min-width: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.elevated-btn-box-shadow:hover {
+    box-shadow: var(--elevated-btn-box-shadow);
+}
+
+.link-hover-btn {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    text-align: inherit;
+    transition: color 250ms ease;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 9999px;
+    width: 80px;
+}   
+
+.link-hover-btn div {
+    font-family: "Zoho Puvi", sans-serif;
+    font-size: 15px;
+    color: var(--primary);
+}
+
+.link-hover-btn:hover {
+    background-color: #F7F7F7;
+}
+.link-hover-btn:before {
+    bottom: 0;  
+    content: '';
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+
+.active-text {
+    font-weight: 600!important;
+}
+
+.borderless {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none;
+    outline: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.only-desktop {
+    visibility: visible!important;
+}
+
+.only-mobile {
+    visibility: hidden!important;
+}
+
+@media all and (max-width: 767px) {
+    .only-desktop {
+        visibility: hidden!important;
+    }
+
+    .only-mobile {
+        visibility: visible!important;
+    }
+}
+
+.absoluted-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.show {
+    opacity: 1!important;
+}
+
+.hide {
+    opacity: 0!important;
+}
+
+.page-header {
+    font-family: "Zoho Puvi", sans-serif;
+    font-weight: 600;
+    color: var(--black);
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+@media all and (max-width: 767px) {
+    .page-header {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 5px;
+    }
+}
+
+.fixed-search-footer {
+    gap: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 70px;
+}
+
+/* Define a CSS animation for zooming in */
+@keyframes zoomIn {
+    from {
+      transform: scale(0); /* Start with scale of 0 */
+    }
+    to {
+      transform: scale(1); /* End with scale of 1 */
+    }
+  }
+  
+  /* Define a CSS animation for zooming out */
+  @keyframes zoomOut {
+    from {
+      transform: scale(1); /* Start with scale of 1 */
+    }
+    to {
+      transform: scale(0); /* End with scale of 0 */
+    }
+  }
+
+  /* Apply the zoomIn animation */
+.zoomIn {
+  animation-name: zoomIn;
+  animation-duration: 0.3s; /* Set animation duration */
+  animation-timing-function: ease-in-out; /* Set animation timing function */
+}
+
+/* Apply the zoomOut animation */
+.zoomOut {
+  animation-name: zoomOut;
+  animation-duration: 0.3s; /* Set animation duration */
+  animation-timing-function: ease-in-out; /* Set animation timing function */
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1; /* animate opacity to 1 */
+    transform: translateY(0); /* animate translateY to 0 */
+  }
+}
+
+.fade-up-animation {
+  opacity: 0; /* set initial opacity to 0 */
+  transform: translateY(30px); /* set initial translateY value to move text 30px down */
+  animation: fadeUp 1s ease-out forwards; /* define the animation with a duration of 1 second, ease-out timing function, and forwards fill mode to retain the final state */
+}
+
+@keyframes fadeUpFast {
+  to {
+    opacity: 1; /* animate opacity to 1 */
+    transform: translateY(0); /* animate translateY to 0 */
+  }
+}
+
+.fast-fade-up-animation {
+  opacity: 0; /* set initial opacity to 0 */
+  transform: translateY(30px); /* set initial translateY value to move text 30px down */
+  animation: fadeUp 0.2s ease-out forwards; /* define the animation with a duration of 1 second, ease-out timing function, and forwards fill mode to retain the final state */
+}
+
+.input-element {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    font-family: "Zoho Puvi", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    transition: ease border-color 0.2s;
+    outline: none;
+}
+
+.input-element:focus {
+    border-color: #000;
+}

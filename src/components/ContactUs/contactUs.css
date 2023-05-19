@@ -1,0 +1,42 @@
+.contact-us-container {
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+.contact-us-content {
+    max-width: 898px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-us-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.contact-us-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-us-form-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn {
+    width: 150px;
+    padding: 18px;
+    background-color: var(--red);
+    color: #fff;
+    border-radius: 9999px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}

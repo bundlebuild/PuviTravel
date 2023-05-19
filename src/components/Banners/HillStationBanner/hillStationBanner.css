@@ -1,0 +1,42 @@
+.banner-full {
+    width: 100%;
+    height: 60vh;
+    background-color: #f2f2f2;
+}
+
+.banner-heading {
+    font-size: 8vh;
+    font-weight: 600;
+    color: #fff;
+    width: 70%;
+    font-weight: 500;
+}
+
+.banner-subheading {
+    font-size: 3.5vh;
+    font-weight: 500;
+    color: #fff;
+}
+
+.banner-full-content {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+.banner-header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.banner-full-cta {
+    position: absolute;
+    bottom: 45px;
+}
+
+.hill-station-banner {
+    background-image: url(../../../../public/assets/img/banners/ooty_hillstation_banner.png);
+}

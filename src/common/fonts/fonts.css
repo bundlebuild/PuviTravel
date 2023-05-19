@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Zoho Puvi";
+    font-weight: 700;
+    font-display: swap;
+    src:  url(./Zoho\ Puvi\ Semibold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Zoho Puvi";
+    font-weight: 600;
+    font-display: swap;
+    src:  url(./Zoho\ Puvi\ Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Zoho Puvi";
+    font-weight: 500;
+    font-display: swap;
+    src: url(./Zoho\ Puvi\ Regular.ttf) format("truetype");
+}

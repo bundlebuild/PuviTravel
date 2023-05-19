@@ -1,6 +1,10 @@
+@import './common/fonts/fonts.css';
+@import './common/styles/variables.css';
+@import './common/styles/commonClasses.css';
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Zoho Puvi', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +14,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.btn-book-now {
+  background-color: var(--red);
+  padding: 13px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 9999px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn-book-now:hover {
+  opacity: 0.5;
 }

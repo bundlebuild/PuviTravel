@@ -1,0 +1,46 @@
+.place-item-card {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    transition: ease width 0.2s, ease height 0.2s;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.place-item-heading {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.place-item-details {
+    padding: 18px;
+}
+
+.place-item-card:hover {
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.place-item-black-overlay {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background-color: #000;
+    border-radius: 8px;
+    opacity: 0.2;
+}
+
+.place-item-black-overlay:hover {
+    width: 250px;
+    height: 150px;
+    cursor: pointer;   
+}
+
+.place-item-heading {
+    position: relative;
+    z-index: 10000;
+    color: #fff;
+}

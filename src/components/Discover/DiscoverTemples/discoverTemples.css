@@ -1,0 +1,16 @@
+.discover-temples-container {
+    background-image: url(../../../../public/assets/img/clouds_background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: linear-gradient(180deg, #fff, transparent);
+}
+
+.discover-temples-container .horizontal-list-content {
+    padding: 3rem;
+    margin-bottom: 0px!important;
+}
+
+.discover-temples-container .overlay {
+    height: 70.8vh;
+    opacity: 0.1;
+}

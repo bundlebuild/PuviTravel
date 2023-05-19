@@ -1,0 +1,40 @@
+.page-header {
+    background-color: #fff;
+    border-bottom: 1px solid #e7ebf0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 75px;
+    z-index: 1000000000;
+}
+
+.page-header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+}
+
+.page-header-logo {
+    font-size: 1.2rem;
+}
+
+.page-header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    align-items: center;
+}
+
+.page-header-link-item {
+    color: var(--primary);
+    display: inline-block;
+    padding: 9px 0;
+    cursor: pointer;
+    font-size: 17px;
+}

@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Discover from './components/Discover';
+import HillStationBanner from './components/Banners/HillStationBanner';
+import BookNow from './components/BookNow';
+import ContactUs from './components/ContactUs';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <div className="gyan-container">
+        <Hero />
+        <Discover />
+        <HillStationBanner />
+        <BookNow />
+        <ContactUs />
+      </div>
     </div>
   );
 }

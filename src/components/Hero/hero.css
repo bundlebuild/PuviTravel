@@ -1,0 +1,39 @@
+.page-hero {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../../../public/assets/img/landscapes/hero-landscape.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-background-overlay {
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    opacity: 0.4;
+}
+
+.page-hero-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.page-hero-content-heading {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.page-hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+    z-index: 1000;
+}
