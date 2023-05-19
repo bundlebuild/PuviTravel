@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PuviTravel/static/css/main.d3593694.css",
+    "main.js": "/PuviTravel/static/js/main.091f5c18.js",
+    "static/js/787.bf45e69c.chunk.js": "/PuviTravel/static/js/787.bf45e69c.chunk.js",
+    "static/media/ooty_hillstation_banner.png": "/PuviTravel/static/media/ooty_hillstation_banner.01a258b6f34d19116ae4.png",
+    "static/media/hero-landscape.jpeg": "/PuviTravel/static/media/hero-landscape.db891a7e64e55c1c2bd4.jpeg",
+    "static/media/clouds_background.jpeg": "/PuviTravel/static/media/clouds_background.794e3a8bb5f3783f6080.jpeg",
+    "static/media/pondicherry.webp": "/PuviTravel/static/media/pondicherry.bf0f9e34fdd8e96de372.webp",
+    "static/media/Zoho Puvi Regular.ttf": "/PuviTravel/static/media/Zoho Puvi Regular.ce42bc640c475516e371.ttf",
+    "static/media/Zoho Puvi Semibold.ttf": "/PuviTravel/static/media/Zoho Puvi Semibold.25128e7c85b643247071.ttf",
+    "static/media/Zoho Puvi Medium.ttf": "/PuviTravel/static/media/Zoho Puvi Medium.a94d0c5ab64ac61e9242.ttf",
+    "static/media/logo.svg": "/PuviTravel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/PuviTravel/index.html",
+    "main.d3593694.css.map": "/PuviTravel/static/css/main.d3593694.css.map",
+    "main.091f5c18.js.map": "/PuviTravel/static/js/main.091f5c18.js.map",
+    "787.bf45e69c.chunk.js.map": "/PuviTravel/static/js/787.bf45e69c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3593694.css",
+    "static/js/main.091f5c18.js"
+  ]
+}
